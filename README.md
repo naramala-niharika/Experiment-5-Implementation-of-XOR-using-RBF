@@ -148,6 +148,23 @@ print(f"Input:{np.array([0, 0])}, Predicted: {predict_matrix(np.array([0, 0]), w
 print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w)}")
 print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
+```
+![output](https://github.com/naramala-niharika/Experiment-5-Implementation-of-XOR-using-RBF/blob/main/N1.png?raw=true)
+```
+mu1 = np.array([0, 0])
+mu2 = np.array([1, 1])
+
+w = end_to_end(x1, x2, ys, mu1, mu2)
+
+# testing
+
+print(f"Input:{np.array([0, 0])}, Predicted: {predict_matrix(np.array([0, 0]), w)}")
+print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w)}")
+print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
+print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
+```
+![output](https://github.com/naramala-niharika/Experiment-5-Implementation-of-XOR-using-RBF/blob/main/N2.png?raw=true)
+
 
 ## RESULT:
 
